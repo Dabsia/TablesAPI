@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#output {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    cursor: pointer;
+    margin: 15px;
+}
+  
+#output td, #output th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+#output tr:nth-child(even){background-color: #f2f2f2;}
+  
+#output tr:hover {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #04AA6D;
+    color: white;
+}
